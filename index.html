@@ -15,6 +15,8 @@
 		header{background: yellow; height:1200px;  background:yellow; margin:0; }
 		img{width: 100%;}
 		a{text-decoration: none; color: white; }
+		section.mid {overflow: hidden;}
+
 
 		
 
@@ -132,7 +134,7 @@
 		.regular {color: white;
 				 font-size: 1.9rem;
 				 font-weight:500;
-				 opacity: 95%;}
+				 opacity: 90%;}
 
 				 .regular:hover {transform: scale(1.05);}
 
@@ -162,11 +164,12 @@
 					margin: auto; }
 
 		.end { padding-top : 300px; width: 900px; line-height: 50px;
-					margin: auto; }
+					margin: auto; overflow: hidden;}
 
 		.normal {padding-bottom: 100px; }
 
 		.bg-black {background: black; }
+		.bg-black2 {background: black;}
 		.term {margin-bottom: 50px;}
 		.middle {width: 1000px; margin: auto; padding-top: 50px;}
 		.charcater { margin: auto; padding-top: 50px;}
@@ -284,7 +287,10 @@
 		.bg-end {background: url('end.jpg');
 							background-size: contain;
 							background-repeat: no-repeat;
-							animation: wiggle 0.3s linear infinite both;}
+							animation: wiggle 0.3s linear infinite both;
+							}
+
+		.hid {overflow: hidden;}
 
 
 
@@ -359,8 +365,8 @@
 
 	</section>	
 
-	<section>
- 		<div class="middle bg-black ">
+	<section class="mid">
+ 		<div class="middle bg-black2">
 
 	 			<div class="relative row2 text-bottom">
 					<div class="col-4">
@@ -604,6 +610,9 @@
 	</section>
 
 
+	<section class="mid">
+
+
 	<section class="bg-end bg2">
 
 
@@ -615,6 +624,8 @@
 
 	
 		
+	</section>
+
 	</section>
 
 	<footer class="bg-footer bg3">
